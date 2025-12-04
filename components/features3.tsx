@@ -3,11 +3,6 @@ import React, { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 
-// Message type definition
-type Message = {
-  role: "assistant" | "user";
-  content: string;
-};
 
 // Card type definition
 type Card = {

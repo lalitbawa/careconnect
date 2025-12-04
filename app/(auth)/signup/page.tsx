@@ -114,10 +114,10 @@ export default function SignupPage() {
           </p>
 
           <div className="mt-8 space-y-4">
-            <FeatureItem icon="check" text="No credit card required" />
-            <FeatureItem icon="check" text="Works with Fitbit & Apple Watch" />
-            <FeatureItem icon="check" text="Daily Peace of Mind Score" />
-            <FeatureItem icon="check" text="7-day predictive forecasting" />
+            <FeatureItem text="No credit card required" />
+            <FeatureItem text="Works with Fitbit & Apple Watch" />
+            <FeatureItem text="Daily Peace of Mind Score" />
+            <FeatureItem text="7-day predictive forecasting" />
           </div>
 
           <div className="mt-8 flex items-center gap-2 text-sm text-emerald-600">
@@ -247,7 +247,7 @@ export default function SignupPage() {
   );
 }
 
-const FeatureItem = ({ icon, text }: { icon: string; text: string }) => (
+const FeatureItem = ({ text }: { text: string }) => (
   <div className="flex items-center gap-3">
     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-500 flex items-center justify-center">
       <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">

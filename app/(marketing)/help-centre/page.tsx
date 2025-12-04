@@ -6,9 +6,7 @@ import {
   IconMoon,
   IconActivity,
   IconBell,
-  IconSettings,
   IconCreditCard,
-  IconUserCircle,
   IconQuestionMark,
   IconMail,
 } from "@tabler/icons-react";

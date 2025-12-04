@@ -72,7 +72,7 @@ export const Navbar = () => {
 
 const DesktopNav = ({ navItems, visible }: NavbarProps) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-  const { data: session, status } = useSession();
+  const { status } = useSession();
   const isAuthenticated = status === "authenticated";
 
   return (
@@ -200,7 +200,7 @@ const DesktopNav = ({ navItems, visible }: NavbarProps) => {
 
 const MobileNav = ({ navItems, visible }: NavbarProps) => {
   const [open, setOpen] = useState(false);
-  const { data: session, status } = useSession();
+  const { status } = useSession();
   const isAuthenticated = status === "authenticated";
 
   return (

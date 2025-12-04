@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import {
   IconMail,
   IconPhone,
@@ -224,13 +225,13 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-gray-600">
             Looking for quick answers?{" "}
-            <a href="/#faq" className="text-emerald-600 hover:text-emerald-700 font-medium">
+            <Link href="/#faq" className="text-emerald-600 hover:text-emerald-700 font-medium">
               Check our FAQ
-            </a>{" "}
+            </Link>{" "}
             or visit our{" "}
-            <a href="/help-centre" className="text-emerald-600 hover:text-emerald-700 font-medium">
+            <Link href="/help-centre" className="text-emerald-600 hover:text-emerald-700 font-medium">
               Help Centre
-            </a>
+            </Link>
           </p>
         </div>
       </div>

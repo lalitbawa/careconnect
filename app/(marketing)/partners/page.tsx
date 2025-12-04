@@ -6,7 +6,6 @@ import {
   IconDeviceWatch,
   IconBuildingHospital,
   IconHome,
-  IconUsers,
   IconCheck,
   IconArrowRight,
 } from "@tabler/icons-react";
